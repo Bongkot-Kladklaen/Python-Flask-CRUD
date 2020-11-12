@@ -10,7 +10,7 @@
   - [License](#license)
 
 ## Demo
-Here is a working live demo: [Basic flask CRUD](https://salty-waters-86856.herokuapp.com/)
+Here is a working live demo: [Basic flask CRUD](https://flask-basiccrud.herokuapp.com)
 ## Screenshots
 Example web application page
 ### Home page
