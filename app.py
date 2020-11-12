@@ -2,7 +2,12 @@ from flask import Flask,render_template,request,redirect,url_for
 import mysql.connector
 
 app = Flask(__name__)
-conn = mysql.connector.connect(host = 'us-cdbr-east-02.cleardb.com',user = 'b13e737dd9e2c4',password = '267c9ade',database = 'heroku_2a4dc602e4cab26')
+
+hostname = 'us-cdbr-east-02.cleardb.com'
+username = 'b13e737dd9e2c4'
+password = '267c9ade'
+database = 'heroku_2a4dc602e4cab26'
+conn = mysql.connector.connect(host = hostname,user = username,password = password,database = database)
 
 @app.route("/")
 def showData():

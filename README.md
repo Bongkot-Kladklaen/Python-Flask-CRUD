@@ -10,7 +10,7 @@
   - [License](#license)
 
 ## Demo
-Here is a working live demo: [Basic PHP Vue](https://salty-waters-86856.herokuapp.com/)
+Here is a working live demo: [Basic flask CRUD](https://salty-waters-86856.herokuapp.com/)
 ## Screenshots
 Example web application page
 ### Home page
@@ -24,21 +24,19 @@ Example web application page
 
 ## Technologies
 Project is created with:
-- [php >= 7](https://www.php.net/)
-- [Bootstrap 5](https://V5.getbootstrap.com/)
-- [Vue.js](https://vuejs.org/)
-- [Axios](https://github.com/axios/axios)
-
+- [python3](https://www.python.org/)
+- [flask](https://flask.palletsprojects.com/en/1.1.x/)
+- [Bootstrap 3](https://getbootstrap.com/docs/3.4/)
 
 ## Setup
 To clone this project, you need [Git](https://git-scm.com) to install on your computer. command line below:
 
 ```zsh
 # Clone this repository
-$ git clone https://github.com/Bongkot-Kladklaen/PHP-VueJS_CRUD.git
+$ git clone https://github.com/Bongkot-Kladklaen/Python-Flask-CRUD.git
 
 # Go into the repository
-$ cd PHP-VueJS_CRUD
+$ cd Python-Flask-CRUD
 ```
 ## Config project
 1. Create database and table :
@@ -46,14 +44,14 @@ $ cd PHP-VueJS_CRUD
     Open project `PHP-VueJS_CRUD` find folder: `database>database.sql` and Import file sql to database server for you
 2. Config connect database server : 
 
-    Open project `PHP-VueJS_CRUD` find folder: `config>config.php` to config: hostname, username, password, database
+    Open project `PHP-VueJS_CRUD` find file: `app.py` to config: hostname, username, password, database
  
-    ```php
+    ```python
         # Config database connect
-        define('DB_HOST', 'localhost');         // hostname
-        define('DB_USER', 'root');              // username
-        define('DB_PASS', 'root');              // password
-        define('DB_NAME', 'php-vue');           // database
+        hostname = 'localhost
+        username = 'root'
+        password = 'root'
+        database = 'flask_db'
     ```
 
 ## License
